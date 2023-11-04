@@ -4,12 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <script src="index.js" defer></script>
   <title>Pimpolho</title>
 </head>
 <body>
   <div class="container">
-    <h1>Pimpolho</h1>
-    <img src="pimpolho.jpeg" alt="">
+    <div class="cat-switcher">
+      <h2>Pimpolho</h2>
+      <button id="switch" data-checked="false" class="switch">
+        <div id="switch-ball" class="switch-ball"></div>
+      </button>
+      <h2>Casca de bala</h2>
+    </div>
+    <img id="cat-pic" src="pimpolho.jpeg" alt="Gato">
   </div>
 </body>
 </html>
