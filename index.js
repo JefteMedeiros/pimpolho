@@ -12,6 +12,7 @@ function handleToggleCat() {
   
     const isChecked = catSwitch.getAttribute('data-checked') === 'true';
     catSwitch.setAttribute('data-checked', String(!isChecked));
+    catSwitch.setAttribute('aria-checked', String(!isChecked));
 
     if (isChecked) {
       catPic.src = "pimpolho.jpeg";

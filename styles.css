@@ -11,7 +11,7 @@ body {
 h2 {
   font-family: 'Courier New', Courier, monospace;
   color: white;
-  padding-bottom: 12px;
+  font-size: 1rem;
 }
 
 img {
@@ -29,7 +29,9 @@ img {
 
 .cat-switcher {
   display: flex;
+  align-items: center;
   gap: 32px;
+  padding-bottom: 12px;
 }
 
 .switch {
@@ -89,6 +91,8 @@ button {
   overflow: visible;
 
   background: transparent;
+
+  -webkit-tap-highlight-color: transparent;
 
   /* inherit font & color from ancestor */
   color: inherit;
