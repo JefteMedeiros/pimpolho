@@ -44,6 +44,23 @@ img {
   cursor: pointer;
 }
 
+audio {
+  margin-top: 16px;
+}
+
+.pempolho {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100dvw;
+  height: 100dvh;
+  opacity: 0.3;
+}
+
+.jeffnaura {
+  margin-left: auto;
+}
+
 .switch::before {
   content: "";
   position: absolute;
